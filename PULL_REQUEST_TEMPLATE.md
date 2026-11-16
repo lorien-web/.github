@@ -1,41 +1,48 @@
-## What and why
+## Summary
 
-<!-- One or two sentences. Link the issue if there is one: Closes #123 -->
+<!-- Briefly explain what changed and why. -->
 
-## How to check it
+## Related work
 
-<!-- Preview URL, steps, or the command to run. -->
+<!-- Link the issue, project task, client request, or other relevant context. -->
 
-## Flags
+## Type of change
 
-These follow the PR rules in the code and review standard (`docs/standards/code-and-review.md` in the private `lorien-documentation` repo). The standard is the authority on what each one means.
+- [ ] Feature or enhancement
+- [ ] Bug fix
+- [ ] Content or CMS update
+- [ ] Design or styling update
+- [ ] Accessibility improvement
+- [ ] Maintenance or refactoring
+- [ ] Configuration, dependency, or infrastructure change
 
-- [ ] CMS schema changed (say whether content needs migrating)
-- [ ] Dependency or lockfile changed (intended, and explained below)
-- [ ] Environment variable added (example file, runtime config, and host for Production and Preview)
-- [ ] AI substantially shaped this change
+## Review flags
+
+<!-- These flags follow the required definitions in docs/standards/code-and-review.md in the private handbook. -->
+
+- [ ] CMS schema changed
+- [ ] Dependency changed
+- [ ] Environment variable added or changed
+- [ ] AI-assisted code or content
+- [ ] Redirects added or changed
+- [ ] Client data, credentials, or sensitive information involved
 
 ## Checks
 
-- [ ] Lint, typecheck, tests, and production build pass for what I changed
-- [ ] Preview deployment checked
-- [ ] Redirects added for any changed URLs
-- [ ] No secrets, tokens, or `.env` values in the diff
-- [ ] README or docs updated if behavior changed
+- [ ] Changes have been tested locally.
+- [ ] Relevant build, lint, type-check, and automated tests pass.
+- [ ] No unintended changes to existing pages, components, or functionality.
+- [ ] Responsive layouts checked at relevant screen sizes.
+- [ ] Accessibility reviewed, including keyboard navigation, focus visibility, semantic structure, and 400% zoom where applicable.
+- [ ] Content, links, images, and metadata reviewed where applicable.
+- [ ] Redirect behavior verified where applicable.
+- [ ] No secrets, credentials, or private client information are exposed.
+- [ ] Documentation updated where necessary.
 
-### Accessibility (UI changes)
+## Screenshots or recordings
 
-- [ ] Keyboard only: order makes sense, focus is visible, no traps
-- [ ] Heading outline correct, one `h1`
-- [ ] Content images have useful alt text, or are decorative
-- [ ] Contrast checked for any new colors
-- [ ] 200% and 400% zoom, and 320px width: nothing clipped, no horizontal scroll
-- [ ] Not applicable (no UI change)
+<!-- Include before/after screenshots or a recording for visual or interactive changes. Remove this section if not applicable. -->
 
-**What I tested:**
+## Additional notes
 
-<!-- Be specific: tools, browsers, what you ran. Leave "accessible" out unless the project's accessibility record backs it up. -->
-
-## Notes for the reviewer
-
-<!-- Anything risky, unfinished, or worth a second look. -->
+<!-- Document implementation details, known limitations, follow-up work, or anything the reviewer should pay particular attention to. -->
